@@ -46,7 +46,7 @@ class SearchBar extends React.Component {
       return <li
                className={this.getSortByClass(sortByOptionValue)}
                key={sortByOptionValue}
-               onCLick={this.handleSortByChange}>{sortByOption}
+               onClick={this.handleSortByChange}>{sortByOption}
              </li>;
     });
   }
